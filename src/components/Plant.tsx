@@ -237,7 +237,7 @@ const Plant: React.FC = () => {
       <Canvas
         camera={{ position: [4, 2, 2], fov: 75 }}
         style={{ 
-          background: '#fff',
+          background: '#000',
         }}
       >
         <ambientLight intensity={0.7} />
