@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import Plant from './components/Plant'
+import '@/styles/App.scss'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-
-    </>
+    <div className="app">
+      <Plant />
+    </div>
   )
 }
 
